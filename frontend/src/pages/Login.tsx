@@ -44,8 +44,15 @@ export default function Login() {
         toast.success('Successfully logged in!');
         navigate('/dashboard');
       } catch (error: any) {
-        if (error.response?.data?.detail) {
-          toast.error(error.response.data.detail);
+        const detail = error.response?.data?.detail;
+        if (detail) {
+          if (Array.isArray(detail)) {
+            toast.error(detail.map((d: any) => d.msg || 'Invalid field').join(', '));
+          } else if (typeof detail === 'string') {
+            toast.error(detail);
+          } else {
+            toast.error('Invalid credentials. Please try again.');
+          }
         } else {
           toast.error('Network error or server unreachable');
         }

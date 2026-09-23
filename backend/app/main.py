@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.api import auth
+from app.api import auth, crop_advisory, plant_health, weather, irrigation, market, ai, insights, farm, notifications
 from app.db.database import engine, Base
 from app.db import models  # noqa: F401 - ensure models are registered with Base metadata
 from app.core.config import settings
@@ -34,6 +34,15 @@ app.add_middleware(
 )
 
 app.include_router(auth.router)
+app.include_router(farm.router)
+app.include_router(notifications.router)
+app.include_router(crop_advisory.router)
+app.include_router(plant_health.router)
+app.include_router(weather.router)
+app.include_router(irrigation.router)
+app.include_router(market.router)
+app.include_router(ai.router)
+app.include_router(insights.router)
 
 @app.get("/")
 def root():

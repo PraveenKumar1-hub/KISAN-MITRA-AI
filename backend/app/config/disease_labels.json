@@ -1,0 +1,65 @@
+{
+  "0": {
+    "plant": "Tomato",
+    "disease": "Tomato Early Blight",
+    "severity": "Moderate",
+    "symptoms": "Dark brown to black spots with concentric rings (target board pattern) primarily on older foliage.",
+    "prevention": "Rotate crops every 2-3 years, use certified disease-free seeds, avoid overhead watering, and maintain adequate plant spacing.",
+    "general_management": "Prune lower infected leaves, mulch soil around plant bases to prevent soil splash, and destroy heavily infested debris after harvest.",
+    "treatment_guidance": "Detailed treatment guidance is not available yet. Please consult a local agricultural expert."
+  },
+  "1": {
+    "plant": "Tomato",
+    "disease": "Tomato Late Blight",
+    "severity": "High",
+    "symptoms": "Water-soaked irregular lesions on leaves that rapidly enlarge and turn dark brown to purplish with pale margins.",
+    "prevention": "Ensure good air circulation, select resistant varieties, and avoid planting near potato fields carrying blight.",
+    "general_management": "Promptly remove and destroy blighted plant parts during dry conditions. Avoid composting infected tissue.",
+    "treatment_guidance": "Detailed treatment guidance is not available yet. Please consult a local agricultural expert."
+  },
+  "2": {
+    "plant": "Potato",
+    "disease": "Potato Early Blight",
+    "severity": "Moderate",
+    "symptoms": "Brown circular spots with concentric rings on lower leaves, leading to leaf yellowing and premature defoliation.",
+    "prevention": "Maintain balanced soil fertility, avoid moisture stress, and practice 3-year crop rotation.",
+    "general_management": "Remove crop residue post-harvest and ensure optimal tuber hilling.",
+    "treatment_guidance": "Detailed treatment guidance is not available yet. Please consult a local agricultural expert."
+  },
+  "3": {
+    "plant": "Potato",
+    "disease": "Potato Late Blight",
+    "severity": "High",
+    "symptoms": "Water-soaked dark lesions appearing on leaf tips and margins with white mildew under humid conditions.",
+    "prevention": "Plant certified seed tubers, scout fields during cool humid periods, and destroy volunteer potato plants.",
+    "general_management": "Kill foliage before harvest to prevent tuber contamination. Store tubers in dry, cool, well-ventilated areas.",
+    "treatment_guidance": "Detailed treatment guidance is not available yet. Please consult a local agricultural expert."
+  },
+  "4": {
+    "plant": "Groundnut",
+    "disease": "Groundnut Tikka (Leaf Spot)",
+    "severity": "Moderate",
+    "symptoms": "Circular dark brown to black spots surrounded by a prominent yellow halo on mature leaves.",
+    "prevention": "Use clean disease-free seeds, practice crop rotation with cereals, and maintain proper crop hygiene.",
+    "general_management": "Collect and burn infected plant residue after harvesting. Maintain adequate plant spacing for aeration.",
+    "treatment_guidance": "Detailed treatment guidance is not available yet. Please consult a local agricultural expert."
+  },
+  "5": {
+    "plant": "Wheat",
+    "disease": "Wheat Yellow (Stripe) Rust",
+    "severity": "High",
+    "symptoms": "Yellowish-orange pustules arranged in linear stripes between leaf veins, producing powdery spores.",
+    "prevention": "Sow rust-resistant varieties recommended by ICAR/State Agriculture Department.",
+    "general_management": "Monitor fields early in the season during cool, humid weather and report outbreaks to local KVK.",
+    "treatment_guidance": "Detailed treatment guidance is not available yet. Please consult a local agricultural expert."
+  },
+  "6": {
+    "plant": "General Crop",
+    "disease": "Healthy Plant Tissue",
+    "severity": "None",
+    "symptoms": "No visible signs of pathogen infection, foliar lesions, or nutrient deficiency.",
+    "prevention": "Continue standard agronomic practices, balanced irrigation, and routine crop scouting.",
+    "general_management": "Maintain soil health and monitor for seasonal pest activity.",
+    "treatment_guidance": "No treatment required. Continue routine care."
+  }
+}
